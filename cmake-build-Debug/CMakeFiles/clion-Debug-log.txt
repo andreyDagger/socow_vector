@@ -1,0 +1,43 @@
+/snap/clion/237/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug --preset Debug -DCMAKE_TOOLCHAIN_FILE=/home/andrey/.clion-vcpkg/vcpkg/scripts/buildsystems/vcpkg.cmake -S /home/andrey/C++_ITMO/socow_vector/socow-vector-andreyDagger -B /home/andrey/C++_ITMO/socow_vector/socow-vector-andreyDagger/cmake-build-Debug
+-- Running vcpkg install
+Detecting compiler hash for triplet x64-linux...
+The following packages will be built and installed:
+    gtest[core]:x64-linux -> 1.13.0
+  * vcpkg-cmake[core]:x64-linux -> 2022-12-22
+  * vcpkg-cmake-config[core]:x64-linux -> 2022-02-06#1
+Additional packages (*) will be modified to complete this operation.
+Restored 3 package(s) from /home/andrey/.cache/vcpkg/archives in 115 ms. Use --debug to see more details.
+Installing 1/3 vcpkg-cmake-config:x64-linux...
+Elapsed time to handle vcpkg-cmake-config:x64-linux: 1.11 ms
+Installing 2/3 vcpkg-cmake:x64-linux...
+Elapsed time to handle vcpkg-cmake:x64-linux: 980 us
+Installing 3/3 gtest:x64-linux...
+Elapsed time to handle gtest:x64-linux: 20.1 ms
+Total install time: 137 ms
+The package gtest is compatible with built-in CMake targets:
+
+    enable_testing()
+    
+    find_package(GTest CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE GTest::gtest GTest::gtest_main GTest::gmock GTest::gmock_main)
+    
+    add_test(AllTestsInMain main)
+
+-- Running vcpkg install - done
+-- The C compiler identification is GNU 11.1.0
+-- The CXX compiler identification is GNU 11.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found GTest: /home/andrey/C++_ITMO/socow_vector/socow-vector-andreyDagger/cmake-build-Debug/vcpkg_installed/x64-linux/share/gtest/GTestConfig.cmake (found version "1.13.0")  
+-- Enabling _GLIBCXX_DEBUG...
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/andrey/C++_ITMO/socow_vector/socow-vector-andreyDagger/cmake-build-Debug

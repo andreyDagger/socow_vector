@@ -1,0 +1,13 @@
+Detecting compiler hash for triplet x64-linux...
+All requested packages are currently installed.
+Restored 0 package(s) from /home/andrey/.cache/vcpkg/archives in 1.24 us. Use --debug to see more details.
+Total install time: 12.5 us
+The package gtest is compatible with built-in CMake targets:
+
+    enable_testing()
+    
+    find_package(GTest CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE GTest::gtest GTest::gtest_main GTest::gmock GTest::gmock_main)
+    
+    add_test(AllTestsInMain main)
+

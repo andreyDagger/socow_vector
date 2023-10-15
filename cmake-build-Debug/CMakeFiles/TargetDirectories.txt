@@ -1,0 +1,3 @@
+/home/andrey/C++_ITMO/socow_vector/socow-vector-andreyDagger/cmake-build-Debug/CMakeFiles/tests.dir
+/home/andrey/C++_ITMO/socow_vector/socow-vector-andreyDagger/cmake-build-Debug/CMakeFiles/edit_cache.dir
+/home/andrey/C++_ITMO/socow_vector/socow-vector-andreyDagger/cmake-build-Debug/CMakeFiles/rebuild_cache.dir
